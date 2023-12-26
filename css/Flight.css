@@ -6,3 +6,28 @@ font-family: 'Roboto', sans-serif;
     /* OR */
     background-color: rgb(230, 242, 244); /* RGB value for cyan */
 }
+.main-title::after {
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.features .icon-holder{
+    height: 200px;
+
+}
+.features .icon-holder svg{
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+.features .feat h4 {
+    color: yellow;
+}

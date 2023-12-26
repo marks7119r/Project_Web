@@ -18,6 +18,7 @@
               background-size: cover;
               background-position: center;
               background-repeat: no-repeat;
+              background-attachment: fixed;
               margin: 0; /* Remove default body margin */
               font-family: 'Helvetica', sans-serif; /* Change font if needed */
             }
@@ -27,7 +28,7 @@
         <nav class="navbar  d-flex p-4" >
             <div class="container-fluid">
                 <img width="35" src="airplane.svg" alt="logo">
-              <a class="navbar-brand fs-2" href="#">Pegasus Airways</a>
+              <a class="navbar-brand fs-2 mx-auto" href="front.html">Pegasus Airways</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -38,31 +39,79 @@
                 </div>
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                          <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
+                      <a class="nav-link active" aria-current="page" href="front.html">Home</a>
+                      <a class="nav-link active" aria-current="page" href="front.html">Flights</a>
+                      <a class="nav-link active" aria-current="page" href="front.html">About</a>
+                      <a class="nav-link active" aria-current="page" href="front.html">Support</a>
                     </li>
                   </ul>
                   
                 </div>
-              </div>
+              <i class="fa-solid fa-magnifying-glass-arrow-right"></i></div>
             </div>
           </nav>
+         
+        
+        <div class="d-flex flex-column mv-3">
+            <h2 class="text-center mt-5 fs-1 justify-content-end badge p-5 ">Hello! Welcome to Pegasus Airways</h2>
+            <p class="badge fs-2 ">Search for Cities:</p>
+
+            <div class="search text-center">
+              <form class="d-flex" role="search">
+                  <input class="form-control me-2 d-inline-flex" type="search" placeholder="Search" aria-label="Search">
+                  <button class="badge bg-black" type="submit">Search</button>
+              </form>
+          </div>
+        </div>
+        
+        <div class="about-contact text-center pt-5 pb-5 b">
+          <div class="main-title postion-relative ">
+            <h2>we are good at</h2>
+            <p class=" text-black-50">SOME OF THESE STUFF UNDER</p>
+            <!-- Add your about and contact content here -->
+          </div> 
+          <div class="features">
+          <div class="row">
+            <div class="col-md6 col-lg-4">
+              <div class="feat">
+                <div class="icon-holder postion-relative">
+                
+    
+                </div>
+                <h4 class="mb-3 mt-3 text-uppercase">Comfortable flight</h4>
+                <p class=" ms-2 text-black-50 lh-bs">Relax and unwind with Pegasus Airways. Our commitment to comfort ensures a pleasurable and enjoyable flight experience, making your journey with us truly comfortable</p>
+              </div>
+              
+            </div> 
+            <div class="col-md6 col-lg-4">
+              <div class="feat">
+                <div class="icon-holder postion-relative">
+                
+    
+                </div>
+                <h4 class="mb-3 mt-3 text-uppercase">Money saving</h4>
+                <p class=" ms-2 text-black-50 lh-bs">Save big with Pegasus Airways. Enjoy affordable fares and exclusive deals, making your travel budget-friendly without compromising on quality service</p>
+              </div>
+              
+            </div>  <div class="col-md6 col-lg-4">
+              <div class="feat">
+                <div class="icon-holder postion-relative">
+                
+    
+                </div>
+                <h4 class="mb-3 mt-3 text-uppercase">ease</h4>
+                <p class="ms-2 text-black-50 lh-bs">Travel with ease at Pegasus Airways. We simplify every step, from booking to boarding, ensuring a seamless and hassle-free experience for you</p>
+              </div>
+              
+            </div> 
+          </div>
+          
+        </div>
+        
+      </div>
+      
           
         <script src="js/bootstrap.bundle.min.js"></script> 
         <script src="js/all.min.js"></script> 
