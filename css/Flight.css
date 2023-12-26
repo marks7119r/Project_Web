@@ -1,0 +1,8 @@
+body {
+font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    background-color: #e6eeee; /* Hex value for cyan */
+    /* OR */
+    background-color: rgb(230, 242, 244); /* RGB value for cyan */
+}
